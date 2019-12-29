@@ -23,3 +23,6 @@ header{
 header .contenedor{
     display: table;
 } 
+iframe {
+    border-width: 0px;
+}

@@ -25,4 +25,5 @@ header .contenedor{
 } 
 iframe {
     border-width: 0px;
+    width: 100%;
 }

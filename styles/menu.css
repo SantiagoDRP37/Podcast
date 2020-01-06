@@ -4,7 +4,7 @@
 header label{
     float:right;
     font-size: 28px;
-    margin: 6px 0;
+    margin: 6px 0px;
     cursor: pointer;
 }
 header img{
@@ -18,7 +18,10 @@ header img{
     
     background: rgb(0, 0, 255);
     transition: all 0.5s;
-    transform: translateX(-100%);
+    transform: translateY(-150%);
+}
+.menu ul{
+    list-style: none;
 }
 .menu  a{
     display: block;
@@ -28,6 +31,5 @@ header img{
     padding: 50px;
 }
 #menu-bar:checked ~ .menu{
-    transform: translateX(0%);
-
+    transform: translateY(0%);
 }

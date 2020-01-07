@@ -1,3 +1,10 @@
 #saludo{
     margin-top: 50px;
 }
+.contenedor p {
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+}

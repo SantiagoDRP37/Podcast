@@ -1,10 +1,26 @@
 #saludo{
     margin-top: 50px;
 }
+h1{
+    width: 232px;
+    font-family: IBM Plex Sans;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height:42px;
+}
 .contenedor p {
     font-family: IBM Plex Mono;
     font-size: 14px;
     color: #060A24;
     letter-spacing: 0;
     line-height: 22px;
+    width: 100%;
+}
+#saludo .boton{
+    width: 100%;
+    position: relative;
+    padding: 13px 96px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    
 }

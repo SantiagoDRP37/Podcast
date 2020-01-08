@@ -1,7 +1,7 @@
 @import url(menu.css);
 @import url(saludo.css);
 @import url(topicos.css);
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;

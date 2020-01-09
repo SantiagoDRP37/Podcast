@@ -2,13 +2,16 @@
     display: none;
 }
 header label{
-    float:right;
-    
+    position: absolute;
+    top: 40%;
+    left: 94%;
     margin: auto;
     cursor: pointer;
+    
 }
 header img{
-    margin: 0;
+    position: absolute;
+    top: 30%;
 }
 .menu{
     position: absolute;

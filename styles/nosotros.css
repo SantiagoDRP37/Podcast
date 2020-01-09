@@ -1,0 +1,17 @@
+#nosotros .contenerdor{
+    display: flex;
+    flex-direction: column;
+}
+#nosotros h2{
+    width: 232px;
+    font-family: IBM Plex Sans;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height:42px;
+}
+#nosotros img{
+    width: 100%;
+    align-self: center;
+    transform: translateY(-100px);
+    
+}

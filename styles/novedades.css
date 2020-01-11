@@ -1,7 +1,25 @@
 #novedades .boton{
     width: 100%;
+    height: 0.9%;
     position: relative;
+    text-align: center;
     padding: 13px 96px;
     margin-top: 16px;
     margin-bottom: 10px;
+}
+#novedades h2{
+    font-family: "IBM Plex Sans";
+    font-size: 36px;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: 42px;
+    text-align: center;
+    width: 100%;
+    height: 2.3%;
+    padding: 25% 0% 2% 0%;
+}
+#novedades{
+    clip-path: polygon(0 31%, 100% 0, 100% 100%, 0% 100%);
+    background-image: linear-gradient(225deg,#0000FF 0%,#0000A3 100%);
+    width: 100%;
 }

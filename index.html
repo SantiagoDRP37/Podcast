@@ -16,12 +16,10 @@
             <input type="checkbox" id="menu-bar">
             <label for="menu-bar"><i class="fas fa-bars"></i></label>
             <nav class="menu">
-                <ul>
-                    <li><a href="#episodios">Episodios</a></li>
-                    <li><a href="#nosotros">Nosotros</a></li>
-                    <li><a href="">Entrevistas</a></li>
-                    <li><a href="#topicos">Tópicos</a></li>
-                </ul>
+                    <a href="#episodios">Episodios</a>
+                    <a href="#nosotros">Nosotros</a>
+                    <a href="">Entrevistas</a>
+                    <a href="#topicos">Tópicos</a>
             </nav>
         </div>
     </header>
@@ -32,7 +30,7 @@
                 <br>
                 <p>Un podcast que explora el mundo de la programación. Nuevos episodios, todo los jueves cada 15 días.</p>
                 <br>
-                <input class="boton" type="button" value="CONOCÉ MÁS">  
+                <a href="#nosotros" class="boton">CONOCÉ MÁS</a>
             </div>
         </Section>
         <section id="episodios">
@@ -53,15 +51,28 @@
             </div>
         </section>
         <section id="invitadas">
-            <div class="contenedor2">
+            <div class="contenedor">
                 <h2>Invitadas/os estelares</h2>
+            </div>
+            <div class="topic_cont">
                 <img src="./images/assets/grace-hopper.png" alt="imagen de grace hopper">
+            </div>
+            <div class="topic_cont">
                 <img src="./images/assets/Katie-Bouman.png" alt="imagen de katie bouman">
+            </div>
+            <div class="topic_cont">
                 <img src="./images/assets/Margaret_Hamilton.png" alt="imagen de Margaret Hamilton">
+            </div>
+            <div class="topic_cont">
                 <img src="./images/assets/An-E.R.A.Univac-1103-computer-in-the-1950s.png" alt="image de E.R.A Univac">
+            </div>
+            <div class="topic_cont">
                 <img src="./images/assets/Computer-operators-with-an-Eniac—the-world’s-first-programmable-general-purpose-computer.png" alt="Imagen de la orimera computadora de uso general del mundo">
+            </div>
+            <div class="topic_cont">
                 <img src="./images/assets/susan-kare.png" alt="imagen de susan kare">
             </div>
+            
         </section>
         <section id="topicos">
             <div class="contenedor">
@@ -87,18 +98,20 @@
         <section id="novedades">
             <div class="contenedor">
                 <h2>¿Querés las últimas novedades?</h2>
-                <input class="boton" type="button" value="ESCUCHÁ LOS EPISODIOS">  
-            </div class="contenedor" >
+                <a href="#episodios" class="boton2">ESCUCHÁ LOS EPISODIOS</a>
+            </div>
         </section>
     </main>
     <footer>
-        <p>© 2019— Hello blue pale dot </p>
-        <div>
-            <i class="fab fa-spotify"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-telegram"></i>
+        <div class="contenedor">
+            <p>© 2019— Hello blue pale dot </p>
+        </div>
+        <div class="icon_media">
+            <a href="https://www.spotify.com/co/"><i class="fab fa-spotify"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+            <a href="https://web.telegram.org"><i class="fab fa-telegram"></i></a>
         </div>
         
     </footer>

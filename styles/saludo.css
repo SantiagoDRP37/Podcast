@@ -8,11 +8,17 @@ h1{
     letter-spacing: 0;
     line-height:42px;
 }
-
 #saludo .boton{
     width: 100%;
     position: relative;
+    color: #000000;
     padding: 13px 96px;
     margin-top: 16px;
     margin-bottom: 10px;
+}
+#mundo{
+    text-decoration: line-through
+}
+#punto{
+    color: blue;
 }

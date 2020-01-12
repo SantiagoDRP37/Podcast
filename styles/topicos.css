@@ -1,5 +1,4 @@
-
-.topic_cont{
+#topicos .topic_cont{
     display: flex;
     flex-flow: column nowrap;
     padding: 5% 0 0 0 ;

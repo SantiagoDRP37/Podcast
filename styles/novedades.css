@@ -1,11 +1,8 @@
-#novedades .boton2{
+#novedades .boton{
     width: 100%;
-    color: #000000;
-    position: relative;
-    text-align: center;
-    margin-top: 0.7%;
-    margin-bottom: 1.2%;
-    padding:  0.2% 18.4%;
+    color: #000000; 
+    padding: 4% 30% 4% 30%;
+    margin: 15% 0 15% 0;
 }
 #novedades h2{
     font-family: "IBM Plex Sans";
@@ -19,8 +16,11 @@
     padding: 25% 0% 2% 0%;
 }
 #novedades{
+    display: flex;
+    flex-flow: column nowrap;
     clip-path: polygon(0 31%, 100% 0, 100% 100%, 0% 100%);
     background-image: linear-gradient(225deg,#0000FF 0%,#0000A3 100%);
     width: 100%;
     height: 6.3%;
+   
 }

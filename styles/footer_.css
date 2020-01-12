@@ -6,8 +6,19 @@ footer {
 }
 .icon_media{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
     flex-direction: row;
-
+    justify-content: space-around;
+    width: 40%;
+}
+@media only screen and (min-width: 850px){
+    footer{
+        flex-direction: row;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        width: 100%;
+        padding: 5% 0%;
+    }
+    footer a{
+        color: #000;
+    }
 }

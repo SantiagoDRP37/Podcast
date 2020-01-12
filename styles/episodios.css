@@ -1,7 +1,8 @@
 iframe {
-    border-width: 0px;
+    border-width: none;
+    outline: none;
     width: 100%;
-    padding: 5%  0%;
+    
 }
 #episodios h2{
     font-family: IBM Plex Sans;
@@ -22,7 +23,20 @@ iframe {
 }
 #episodios .contenedor{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
+}
+@media only screen and (min-width: 850px) {
+    iframe{
+        width: 48%;
+        height: auto;
+        padding-bottom: 2%;
+    }
+    #episodios .contenedor{
+        width: 100%;
+        
+        justify-content: space-around;
+    }
+    
 }

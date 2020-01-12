@@ -9,7 +9,6 @@
     color: #060A24;
     letter-spacing: 0;
     line-height: 42px;
-    width: 70%;
 }
 #topicos .topic_cont h3 {
     text-align: center;
@@ -18,4 +17,22 @@
     color:#060A24;
     font-weight: bold;
     padding: 0 0 15% 0;
+}
+@media only screen and (min-width: 850px){
+    #topicos .topic_cont{
+        display: flex;
+        width: 100%;
+        flex-flow: column nowrap;
+        padding: none; 
+    }
+    #topicos{
+        display: flex;
+        flex-flow: column  nowrap;
+        justify-content: space-evenly;
+    }
+    #topicos .topic_grup{
+        display: flex;
+        flex-flow: row  nowrap;
+        padding: 0% 5%;
+    }
 }

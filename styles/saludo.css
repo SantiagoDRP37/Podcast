@@ -22,7 +22,7 @@ h1{
     color: blue;
 }
 @media only screen and (min-width: 850px) {
-    h1 {
+    h1{
 		font-family:'IBM Plex Sans', sans-serif;
 		font-size: 64px;
 		color: #060A24;

@@ -1,8 +1,6 @@
-iframe {
-    border-width: none;
-    outline: none;
+iframe{
+    border-width: 0;
     width: 100%;
-    
 }
 #episodios h2{
     font-family: IBM Plex Sans;
@@ -14,12 +12,12 @@ iframe {
     width: 96%;
     margin: auto;
     padding: 6% 0 0 5%;
-    
 }
 #episodios{
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0% 100%); 
     padding: 8% 0 10% 0;
+    width: 100%;
 }
 #episodios .contenedor{
     display: flex;
@@ -29,14 +27,11 @@ iframe {
 }
 @media only screen and (min-width: 850px) {
     iframe{
-        width: 48%;
-        height: auto;
-        padding-bottom: 2%;
+        width: 40%;
+        padding-bottom: 2%;   
     }
     #episodios .contenedor{
         width: 100%;
-        
         justify-content: space-around;
-    }
-    
+    } 
 }

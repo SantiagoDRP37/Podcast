@@ -1,4 +1,4 @@
-#invitadas h2 {
+#invitadas h2{
     font-family: IBM Plex Sans;
     font-size: 36px;
     color: #060A24;
@@ -14,7 +14,7 @@
     #invitadas .topic_cont{
         width: 33.33%;
     }
-    #invitadas {
+    #invitadas{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;

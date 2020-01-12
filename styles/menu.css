@@ -1,62 +1,79 @@
-#menu-bar{
+header{
+    height: 50px;
+}
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+#check_menu{
     display: none;
 }
-header label{
-    position: absolute;
-    top: 40%;
-    left: 90.5%;
-    margin: auto;
+.icon_menu .fas fa-times close{
+    display: none;
+}
+.logo, .icon-menu{
+    margin: 5px;
+}
+.icon_menu{
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 45px;
+    margin-right: auto;
     cursor: pointer;
-    
 }
-header img{
-    position: absolute;
-    top: 30%;
-}
-.menu{
+.nav{
     position: absolute;
     top: 50px;
     left: 0;
     width: 100%;
-    
-    background: #0000A3;
     transition: all 0.5s;
-    transform: translateY(-150%);
+    transform: translateX(-100%);
 }
-.menu ul{
+.menu li{
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
-.menu  a{
+.menu_link{
     display: block;
-    color: #ffffff;
-    height: 50px;
+    padding: 15px;
+    background-color:#0000EC;
     text-decoration: none;
-    padding: 50px;
+    
+    
+    font-family: "IBM Plex Mono";
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 28px;
 }
-#menu-bar:checked ~ .menu{
-    transform: translateY(0%);
+#check_menu:checked ~.nav{
+    transform: translateX(0%);
 }
-.menu li:hover{
-    background: rgba(0, 0, 0, 0.3);
-}
-@media(min-width:1024px){
-    .menu{
-        position: absolute;
-        top: 0%;
-        left: 50%;
+@media only screen and (min-width: 850px) {
+    .nav{
+        position: static;
         width: auto;
-        height: auto;
-        transform: translateY(0%);
-        
-        display: flex;
-        flex-direction: column;
     }
-
-    .menu a{
-        display: inline-block;
-        border: none;
+    .header .contenedor{
+        justify-content: space-between;
     }
-    .menu ul{
+    .icon_menu{
+       display:  none;
+    }
+    .menu_link{
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+    .menu{
         display: flex;
+        justify-content: space-around;
+    }
+    .menu_link:hover{
+        text-decoration: line-through;
+        color:#00F3BB;
     }
 }

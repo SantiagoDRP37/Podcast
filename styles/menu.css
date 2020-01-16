@@ -1,14 +1,12 @@
 header{
     height: 50px;
+    width: 100%;
 }
 header .contenedor{
     display: flex;
     justify-content: space-between;
 }
 #check_menu{
-    display: none;
-}
-.icon_menu .fas fa-times close{
     display: none;
 }
 .logo, .icon-menu{

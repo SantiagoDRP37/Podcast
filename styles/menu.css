@@ -10,13 +10,13 @@ header .contenedor{
     display: none;
 }
 .logo, .icon-menu{
-    margin: 5px;
+    padding: 5px;
 }
 .icon_menu{
-    display: block;
+    
     width: 40px;
     height: 40px;
-    font-size: 30px;
+    font-size: 30px;  
     text-align: center;
     line-height: 45px;
     margin-right: auto;
@@ -51,13 +51,10 @@ header .contenedor{
 #check_menu:checked ~.nav{
     transform: translateX(0%);
 }
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 1056px) {
     .nav{
         position: static;
         width: auto;
-    }
-    .header .contenedor{
-        justify-content: space-between;
     }
     .icon_menu{
        display:  none;

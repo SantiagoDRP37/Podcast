@@ -21,7 +21,7 @@ h1{
 #punto{
     color: blue;
 }
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 1056px) {
     h1{
 		font-family:'IBM Plex Sans', sans-serif;
 		font-size: 64px;
